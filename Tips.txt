@@ -1,0 +1,16 @@
+Khởi tạo thư mục git 
+git init
+
+Kiểm tra trạng thái của thư mục git hiện tại
+git status
+
+Thêm 1 file ở thư mục hiện tại sang vùng Stating Area
+git add <Tên file> (Thêm 1 file riêng lẻ)
+git add .  (Thêm tất cả file) 
+
+Commit lại những thay đổi hay chuyển sang vùng Commited
+git commit -m "<Mô tả sự thay đổi của commit>"
+
+Đưa nhưng commit từ nhánh khác sang nhánh hiện tại
+git merge <Tên nhánh khác>
+
