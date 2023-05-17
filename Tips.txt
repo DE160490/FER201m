@@ -14,3 +14,10 @@ git commit -m "<Mô tả sự thay đổi của commit>"
 Đưa nhưng commit từ nhánh khác sang nhánh hiện tại
 git merge <Tên nhánh khác>
 
+Kết nối với Repositories 
+git remote add origin <http>
+
+Đổi nhánh 
+git branch -m <Tên nhánh>
+
+
