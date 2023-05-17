@@ -7,43 +7,58 @@
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
 </head>
 <body>
     <div class="container">
-<!-- Start Row -->
-        <div class="row">
+        <!-- header -->
+        <header class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6"> 
+                        Restaurant name and description  </div>
+                
+                    <div class="col-12 col-sm">  Restaurant logo </div>
 
-          <header class="jumbotron">
-            <h1>Header</h1>
-            <p>This is a jumbotron header.</p>
-          </header>
-  
-          <footer class="footer">
-            <p>Footer content here.</p>
-          </footer>
-
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-4">Cột 1</div>
-              <div class="col-sm-4">Cột 2</div>
-              <div class="col-sm-4">Cột 3</div>
+                </div>
             </div>
-          </div>
+        </header>
 
-          <div class="container">
-            <div class="row">
-              <div class="col-md-4 order-md-last">Cột 1</div>
-              <div class="col-md-4">Cột 2</div>
-              <div class="col-md-4">Cột 3</div>
+        <!-- content row -->
+        <div class="container">
+            <div class="row row-content align-items-center"> ... </div>
+            <div class="row justify-content-center">
+                <div class="col-auto"> ... </div>
             </div>
-          </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-4 order-sm-last col-md-3"> ... </div>
+
+                <div class="col col-sm order-sm-first col-md"> ... </div>
+            </div>
 
         </div>
-<!-- End Row -->
-      </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-2"> Content for the first footer column </div>
+
+                    <div class="col-7 col-sm-5"> Content for the second footer column </div>
+
+                    <div class="col-12 col-sm-4 align-self-center"> </div>
+
+                    <div class="col-auto"> Content for the four footer column </div>
+
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
