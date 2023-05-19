@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bootstrap</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="jumbotron">
         <div class="container">
+            <div class="row row-header"> 1 </div>
             <div class="row">
-                <div class="col-12 col-sm-6">Logo</div>
-                <div class="col-12 col-sm-6">Dersire</div>
+                <div class="col-12 col-sm-6"> ... </div>
+                <div class="col-12 col-sm-6"> ... </div>
             </div>
         </div>
     </header>
-
+    
     <section>
         <div class="container">
+            <div class="row row-content align-items-center"> 2 </div>
+            <div class="row row-content align-items-center"> 3 </div>
+            <div class="row row-content align-items-center"> 4 </div>
             <div class="row">
                 <div class="col-12 col-sm-4 col-md-3 order-sm-last"> 1 </div>
                 <div class="col col-sm col-md order-sm-first"> 2 </div>
@@ -27,13 +31,15 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-4 offset-1 col-sm-2"> 1 </div>
+            <div class="row justify-content-center">
+                <div class="col-4 offset-1 col-sm-2"> 
+                    <ul class="list-unstyled"> ... </ul>    
+                </div>
                 <div class="col-7 col-sm-5"> 2 </div>
-                <div class="col-12 col-sm-4"> 3 </div>
-                <div class="col-auto"> 4 </div>
+                <div class="col-12 col-sm-4 align-items-center"> 3 </div>
+                <div class="col-auto text-center"> 4 </div>
 
             </div>
         </div>
