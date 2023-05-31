@@ -1,0 +1,37 @@
+
+Tạo NodeJS
+B1: npm init
+B2: npm install lite-server --save-dev
+B3: Vào file package.json -> Sửa trong "scripts": { "start": "npm run lite", "test": "echo \"Error: no test specified\" && exit 1", "lite": "lite-server" }
+
+Chạy NodeJS
+B1: npm start
+B2: npm install
+
+Tạo Bootstrap
+B1: npm install bootstrap@4.0.0 --save
+B2: npm install jquery@3.3.1 popper.js@1.12.9 --save
+B3: 
++ Trong head thêm 
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
++ Cuối body thêm 
+	<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+	<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+Tạo Icon
+B1: npm install font-awesome@4.7.0 --save
+B2: npm install bootstrap-social@5.1.1 --save
+B3: 
++ Trong head thêm 
+	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+
+Tạo Lessc
+B1: npm install -g less@2.7.2
+B2: lessc styles.less styles.css 
+
+Tạo Scss
+B1: npm install --save-dev node-sass@4.7.2 
+B2: Mở package.json thêm "scss": "node-sass -o css/ css/"
+B3: cd CSS > npm run scss
